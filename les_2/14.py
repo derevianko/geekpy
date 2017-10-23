@@ -2,7 +2,7 @@
 # 		Sample Dictionary ( n = 5) :
 # 		Expected Output : {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
-n=int(input("Input a number "))
+n=int(input("Input a number: "))
 d = dict()
 
 for x in range(1,n+1):

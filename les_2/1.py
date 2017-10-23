@@ -6,12 +6,7 @@
 
 # 1 example
 x_str=(input('Input some numbers:'))
-print(list(x_str))
-print(tuple(x_str))
-
-# 2 example
-x_str=(input('Input some numbers:'))
-x_list=(list(x_str))
-x_tuple=(tuple(x_str))
-print(x_list)
-print(x_tuple)
+x_list = x_str.split(',')
+x_tuple = tuple(x_list)
+print (x_list)
+print (x_tuple)
