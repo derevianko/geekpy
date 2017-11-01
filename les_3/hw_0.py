@@ -1,4 +1,4 @@
-# 1 task
+# 1.1 task
 # func seasons
 # create func
 def seasons():
@@ -21,6 +21,31 @@ def seasons():
     print(m_dict.get(month))
 # run func
 seasons()
+
+# 1.2 task
+# func seasons
+# create func
+def seasons(month):
+# input number in month
+
+    m_dict = {
+    1: ['winter', 'January'],
+    2: ['winter', 'February'],
+    3: ['spring', 'March'],
+    4: ['spring', 'April'],
+    5: ['spring', 'May'],
+    6: ['summer', 'June'],
+    7: ['summer', 'July'],
+    8: ['summer', 'August'],
+    9: ['autumn', 'September'],
+    10: ['autumn', 'October'],
+    11: ['autumn', 'November'],
+    12: ['winter', 'December'],
+    }
+    print(m_dict.get(month))
+
+# run func, enter in arguments some number from 1 as 12
+seasons(1)
 
 
 
